@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    background-color:#f541c8 ; 
+    color: antiquewhite;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+button:hover{
+    background-color: rgb(151, 36, 167);
+}
+.container{
+    background-color: rgb(116, 39, 105);
+    width: 120px;
+    height: 100vh;
+    color: aliceblue;
+    border-radius: 5px;
+}  
+.container p:hover{
+    background-color: rgb(228, 96, 169);
+
+}
+.container p{
+    padding: 10px;
+}  
+#close{
+    position: absolute;
+    left: 122px;
+}
+.hide{
+    display: none;
+}
+ 

@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'poppins';
+    text-transform: capitalize;
+}
+body{
+    background-color: rgb(77, 206, 206);
+    background-attachment: fixed;
+    font-family: PTSansNarrow;
+}
+.nav-bar{
+    width: 85%;
+    border: solid 1px black;
+    border-radius: 45px;
+}
+.nav-logo{
+    width:20%;
+}
+.nav-bar ul li{
+     list-style: none;
+     padding: 3px;
+    display: inline-block; 
+}
+.nav-icon .dropdown-1{
+    border: 1px black solid;
+    border-radius: 2px;
+    width:270px;
+    cursor: pointer;
+    display: none;
+}
+
+.nav-icon .dropdown-2{
+    border: 1px black solid;
+    border-radius: 2px;
+    width:270px;
+    cursor: pointer;
+    display: none;
+}
+.nav-bar a{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+.nav-bar a:hover{
+    color:red;
+}
+
+.fa-circle{
+    font-size: 5px;
+}
+.cards{
+    border-radius: 20px;
+    background-color: rgb(214, 212, 212);
+}
+.card-1{
+    background-color: rgb(172, 255, 227);
+}
+.card-2{
+    background-color: rgb(215, 250, 204);
+}
+.card-3{
+    background-color: rgb(250, 255, 176);
+}
+.card-4{
+    background-color: rgb(221, 253, 242);
+}
+.card-5{
+    background-color: rgb(250, 255, 176);
+}
+.card-6{
+    background-color: rgb(213, 255, 241);
+}
+.card-8{
+    background-color: rgb(255, 214, 185);
+}
+.pra-card{
+    font-weight: 800;
+    border-radius: 17px;
+}
+.img-card{
+    border-radius: 20px;
+}
+.img-btn{
+    cursor: pointer;
+    border-radius:50px;
+    width:15%;
+}
+.btnn{
+    border:none;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.fa-diamond{
+    color: rgb(185, 144, 224);
+}
+.fa-comment{
+    border-radius: 50%;
+    font-size: 12px;
+}
+.travel{
+    border-radius: 20px;
+}
+.bttn-2{
+    border-radius:20px;
+}
+/* footer */
+.groovy a{
+    text-decoration: none;
+    color:black;
+    font-weight:700;
+}
+hr{
+    border: 1px solid black;
+}
+footer{
+    background-color: rgb(255, 251, 199);
+}
+.resent-post h5{
+    border-radius: 20px;
+}
+.img-one{
+    border-radius: 10px;
+}
+.post h5{
+    border-radius: 20px;
+
+}
+.post h6{
+    width: 30%;
+    border-radius: 20px;
+    font-size: 13px;
+}
+.top-line{
+    height: .3px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.bottom-line{
+    height: .3px;
+    background-color: black;
+    margin: auto;
+    width: 95%;
+}
+.social-icon{
+    width: 15%;
+    border-radius: 50%;
+}
+
+.search-bar{
+    width: 35%;
+    border-radius: 30px;
+}
+.search-bar:focus-visible{
+    outline:3px solid rgb(255, 220, 67);
+}

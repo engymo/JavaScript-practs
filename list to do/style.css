@@ -1,0 +1,35 @@
+body,input,button{
+    font-weight: 800;
+    text-transform: capitalize;
+}
+input{
+    width: 300px;
+    height: 30px;
+    padding-left: 15px;
+    border-radius: 10px;
+    background-color: rgb(252, 252, 151);
+    border: 1px dotted ;
+    color: rgb(119, 117, 117);
+
+}
+input:focus{
+    outline: none;
+}
+button{
+    cursor: pointer;
+    background-color: rgb(180, 221, 96);
+    border: 1px dotted ;
+    border-radius: 10px;
+    padding: 5px;
+}
+.container{
+    margin:  auto;
+}
+.bi{
+    color: chocolate;
+    font-weight: 800;
+    font-size: 20px;
+}
+p{
+    padding-left: 15px;
+}

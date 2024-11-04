@@ -1,0 +1,31 @@
+
+#aqua{
+    width: 15px;
+    height: 15px;
+    background-color:aquamarine
+}
+#gray{
+    width: 15px;
+    height: 15px;
+    background-color: gray;
+}
+#pink{
+    width: 15px;
+    height: 15px;
+    background-color: pink;
+}
+#purple{
+    width: 15px;
+    height: 15px;
+    background-color: purple;
+}
+.parent{
+    position: fixed;
+    left: 0;
+    bottom: 2%;
+    display: flex;
+    width:30%;
+    height: 30%;
+    cursor: pointer;
+
+}

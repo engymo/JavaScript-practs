@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+
+}
+
+button {
+    cursor: pointer;
+    border-radius: 8px;
+    background: #0174DF;
+    border: none;
+    padding: 5px;
+    color: #fff;
+}
+
+.box {
+    border: dotted 1px blueviolet;
+    width: 200px;
+    height: 200px;
+
+}

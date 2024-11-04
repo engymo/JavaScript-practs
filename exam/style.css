@@ -1,0 +1,367 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-family:"Poppins", sans-serif;
+
+}
+/* navbar */
+.navbar {
+  display: flex;
+  /* position: fixed; */
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+
+.nav-icon a {
+  text-decoration-line: none;
+  color: aliceblue;
+  padding: 10px;
+}
+.nav-social a{
+  color: aliceblue;
+  padding: 15px;
+}
+.navbar a:hover {
+  color: rgb(223, 37, 37);
+}
+/* navbar media */
+
+@media screen and (max-width:568px) {
+  .navbar{
+    padding:0;
+    margin:0 ;
+    display: flex;
+    justify-content: space-around;
+  }
+  .navbar a:hover {
+    padding: 10px;
+    background-color: black;
+  }
+
+  .nav-social {
+    display: none;
+  }
+
+  .nav-line {
+    display: none;
+  }
+  .free-icon{
+    display: none;
+  }
+  .mouse{
+    display: none;
+  }
+
+}
+@media screen and (min-width:569px) and (max-width:768px){
+  .navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+  }
+  .navbar a:hover {
+    padding: 10px;
+    background-color: black;
+  }
+
+  .nav-social {
+    display: none;
+  }
+
+.nav-line {
+    display: none;
+  }
+
+}
+
+@media screen and(min-width:769px) and (max-width:992px) {
+  .navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+  }
+  .navbar a:hover {
+    padding: 10px;
+    background-color: black;
+  }
+  .nav-social {
+    display: none;
+  }
+
+  .nav-line{
+    display: none;
+  }
+  
+}
+.nav-line{
+  width: 100%;
+}
+/* ./home  */
+.home {
+  height: 700px;
+  background-image: url(image/slideshow-2.jpg);
+  animation-name: do;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  background-size: 100% 100%;
+}
+
+@keyframes do {
+  0% {
+    background-image: url(image/slideshow-2.jpg);
+  }
+
+  50% {
+    background-image: url(image/slideshow-1.jpg);
+  }
+
+  100% {
+    background-image: url(image/slideshow-3.jpg);
+  }
+}
+
+.text {
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 400px;
+  color: aliceblue;
+}
+
+.free-icon a {
+  background-color: rgba(37, 36, 36, .6);
+  position: fixed;
+  top: 300px;
+  left: 0;
+  color: aliceblue;
+}
+.mouse{
+  width: 20px;
+  height: 25px;
+  border: 1px solid white;
+  border-radius: 12px;
+  margin: 20px auto;
+}
+/* ///////////////////////// */
+.aboutus{
+  margin: 40px;
+  text-align: center;
+
+
+}
+.letter {
+  margin-bottom: 0;
+  font-size: 50px;
+  opacity: .3;
+}
+.aboutus h2{
+  font-size:40px;
+  font-weight: 700;
+  position: relative;
+  top:-40px;
+
+}
+.aboutus p{
+  color: #999;
+}
+
+.aboutus-info{
+  margin: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+.content{
+  width: 50%;
+  font-size: 1.2;
+}
+.content p{
+  padding: 5px;
+  word-spacing: 5px;
+}
+.met{
+  width: 40%;
+  font-size: 1.2;
+}
+.met p{
+  padding: 7px;
+
+}
+@media screen and(max-width:568px){
+  .aboutus-info .content{
+    display: block;
+    width: 100%;
+  }
+  .met{
+    display: block;
+    width: 100%;
+  }
+
+
+}
+@media screen and(min-width:569px) and (max-width:768px){
+  .aboutus-info .content{
+    background-color: aquamarine;
+    width: 100%;
+    display: block;
+
+  }
+  .met{
+    background-color: blue;
+    display: block;
+    width: 100%;
+  }
+}
+@media screen and(min-width:769px) and (max-width:992px){
+  .aboutus-info .content{
+    display: block;
+    width: 100%;
+  }
+  .met{
+    display: block;
+    width: 100%;
+  }
+}
+/* //////////our tam/////////// */
+.our-team{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+.our-team p{
+  font-weight: normal;
+  font-size: 14px;
+  color: #999;
+}
+
+.team{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 100px;
+}
+.ourteam-img{
+  position: relative;
+}
+
+.contact-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+}
+
+.contact-info:hover{
+  opacity: 1;
+}
+.ourteam-img{
+  width: 20%;
+  overflow: hidden;
+}
+img{
+  width: 100%;
+}
+.contact-info {
+  padding-top: 150px;
+  text-align: center;
+  color:white;
+}
+
+.ourteam-img img{
+  transition: all 2s;
+}
+
+.ourteam-img:hover img{
+  transform: scale(1.5);
+  background-color: rgba(243, 41, 41, .6);
+}
+
+.contact-info a{
+  padding: 20px;
+  color:white;
+}
+.contact-info a:hover{
+  color: red;
+}
+.info-team{
+  text-align: center;
+}
+.info-team h3{
+  font-size: 30px;
+  font-weight: 700;
+}
+.parent{
+  display: flex;
+  justify-content: space-around;
+  padding: 80px 0;
+}
+.child-1{
+  font-size: 30px;
+  font-weight: 700;
+}
+.btn{
+  background-color: rgb(204, 8, 8);
+  padding: 20px;
+  font-weight: 800;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+}
+.btn:hover{
+  background-color: rgba(173, 68, 68, .7);
+}
+
+/* services */
+.ClientReviews{
+  text-align: center;
+  margin-top: 80px;
+
+}
+hr{
+  width: 50px;
+  margin:20px auto;
+  transition: all 2s;
+}
+hr:hover{
+  width: 70px;
+  
+}
+.ClientReviews h2{
+  font-size: 40px;
+  font-weight: 700;
+}
+.ClientReviews p{
+  color: #999;
+}
+.client-img{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 0 200px;
+} 
+.client-1{
+  width: 15%;
+  padding: 10px;
+
+}
+.client-img .client-1 img{
+  width: 100%;
+  border-radius: 50%;
+  cursor: pointer; 
+  opacity: .7;
+}
+.client-img img:hover{
+  opacity: 1;
+}
+.serv {
+  background-color: aqua;
+  text-align: center;
+}
+.serv h1{
+  position: relative;
+  opacity: .6;
+}
+

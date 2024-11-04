@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.serv h1{
+    position:relative;
+    bottom:-50px;
+    opacity: .5;
+    font-size: 60px;
+}
+
+.serv h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.serv p{
+    color: #999;
+}
+span{
+    padding: 20px;
+}
+.child{
+    display: flex;
+    width: 30%;
+}
